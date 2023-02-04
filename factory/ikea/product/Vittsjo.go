@@ -11,9 +11,9 @@ func (l *Vittsjo) Price() float64 {
 
 func (v *Vittsjo) Size() factory.Dimension {
 	return factory.Dimension{
-		80,
-		70,
-		40,
+		Length: 80,
+		Width:  70,
+		Height: 40,
 	}
 }
 func (v *Vittsjo) IsFoldable() bool {

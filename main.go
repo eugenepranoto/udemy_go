@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
+	"udemy/go/factory/ikea/product"
 	"udemy/go/model"
 )
 
@@ -20,7 +21,10 @@ func fibbonaci(total int, c chan int, finish chan int) {
 		}
 	}
 }
+
 func main() {
+	helmingBy := product.HemlingBy{}
+	helmingBy.Price()
 	// ball := make(chan *int)
 	// go player("hanny", ball)
 	// go player("fransisco", ball)
