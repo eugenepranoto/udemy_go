@@ -1,3 +1,7 @@
+// menjembatani 2 object missal ada kotak. lalu kita mau buat
+// kotak biru, kotak merah, dll
+// solusi tambah 1 props di kotak yang isinya object color
+
 package bridge
 
 import "fmt"

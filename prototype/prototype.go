@@ -1,5 +1,10 @@
 package prototype
 
+// mengclone suatu struct. masalah yang dihadapi jika ada
+// prop type private tidak bisa di copy
+// solusi tambahkan fungsi close di struct yg perlu diclone
+// jadi prop private dapat dicopy juga
+
 import "fmt"
 
 type Prototype interface {

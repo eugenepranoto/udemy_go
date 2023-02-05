@@ -1,5 +1,11 @@
 package facade
 
+// membuat 1 struct yang memiliki fungsi
+// dimana fungsi didalamnya itu banyak
+// dan interaksi dengan modul modul lain
+// jadi mensimplify. kita tidak perlu tau fungsi didalamnya
+// cukup panggil struct facade ini lalu panggil fungsinys
+
 import (
 	"fmt"
 	"udemy/go/facade/gofood"

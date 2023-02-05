@@ -1,5 +1,8 @@
 package decorator
 
+// membuat suatu fungsi pada suatu object menjadi lebih
+// kaya dengan cara diwrap didalam object lain
+
 import (
 	"fmt"
 	"math/rand"

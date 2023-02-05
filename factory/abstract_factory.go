@@ -1,5 +1,11 @@
 package factory
 
+// creational pattern untuk membuat suatu object dari
+// object lain
+// contoh kasus disini
+// furniturefactory bisa buat
+// ikea, ikea bisa buat kursi, meja, dll
+
 type Pricey interface {
 	Price() float64
 }

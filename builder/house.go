@@ -1,5 +1,8 @@
 package builder
 
+// membuat struct untuk membuat suatu struct lain
+// dikasus ini ada struct housebuild yang mereturn house
+
 import (
 	"fmt"
 	"log"

@@ -1,3 +1,11 @@
+// jika misal ada suatu object A yang punya pungsi dan
+// membutuhkan input dengan format tertentu
+// tapi kita punya inputnya beda format
+// kita bisa bikin object adapter. dimana
+// adapteenya ada object A, lalu buat fungsi yang sama
+// pada adapter seperti fungsi di object A
+// tapi tipe paramnya sesuai dengan tipe data yang kita punya
+
 package adapter
 
 import "fmt"
