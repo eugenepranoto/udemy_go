@@ -126,3 +126,14 @@ func (kgp GigiBerlubangPatient) Profile() Profile {
 func (kgp GigiBerlubangPatient) MedicalRecord() MedicalRecord {
 	return MedicalRecord{}
 }
+
+func init() {
+	spc := Specialist{}
+	drg := Drg{}
+
+	kgp := KarangGigiPatient{}
+	gbp := GigiBerlubangPatient{}
+
+	kgp.Accept(spc)
+	gbp.Accept(drg)
+}
