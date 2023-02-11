@@ -46,7 +46,9 @@ func (s SpaceRemovel) Process(st string) string {
 func init() {
 	sr := SpaceRemovel{}
 	lc := LowerCaseHandler{}
+	lc2 := LowerCaseHandler{}
 	lc.SetNext(&sr)
+	sr.SetNext(&lc2)
 
 	fmt.Println(lc.Process("THE titanic"))
 }
